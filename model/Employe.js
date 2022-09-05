@@ -22,11 +22,7 @@ const employeSchema=new Schema({
         type:String,
         required:true,
     },
-    DateOfBirth:{
-        type:String,
-        required:true
-        
-    }, 
+   
 },
 {
     timestamps:true

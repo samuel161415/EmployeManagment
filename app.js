@@ -15,9 +15,11 @@ app.use(express.urlencoded({
 
 
 
-//const Admin=require('./route/Admin')
-const Employe=require('./route/Employe')
 
+const Employe=require('./route/Employe')
+const Admin=require('./route/Admin')
+const AdminCrud=require('./route/AdminCrud')
 app.use('/Employe',Employe)
+app.use('/Admin',Admin)
 
 app.listen(5000,()=>{console.log("I am listning");})
