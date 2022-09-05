@@ -5,6 +5,9 @@ Idea is first employee creates enters its information and stored in employee dat
 and then Admin creates username and password for employee. It generally uses email as email
 is unique for everyone
 
+
+It uses bcrypt method to encrypt the password and has validation
+
 It basically has two data 3 models and 3 main routes
 Admin route ..
 http://localhost:5000/Employe/createAcount ... to create employe acount for employes
