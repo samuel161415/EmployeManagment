@@ -11,7 +11,7 @@ It uses bcrypt method to encrypt the password and has validation
 It basically has two data 3 models and 3 main routes
 Admin route ..
 http://localhost:5000/Employe/createAcount ... to create employe acount for employes
-http://localhost:5000/Admin/creatCredential ... to create employ credentials for admin
+http://localhost:5000/AdminCrud/creatCredential ... to create employ credentials for admin
 http://localhost:5000/Employe/login ... to login for employee
 http://localhost:5000/AdminCrud/deleteAcount .. to delete employee acount
 http://localhost:5000/AdminCrud/update  .. to update employee acount
